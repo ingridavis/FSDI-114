@@ -1,17 +1,21 @@
 # 1. Implement a stack
 
 # Create a class named "Stack" that allows you to:
-
 # a. Check if it is empty
-
 # b. Push a new item
-
 # c. Pop an item
-
 # d. Peek at the top item
-
 # e. Return the size
-class Queue2Stacks(object):
+
+
+
+# 2. Implement a queue
+
+# Create a class named "Queue" that allows you to:
+# a. Check if the queue is empty
+# b. Enqueue
+# c. Dequeue
+# d. Return the size of the queueclass Queue2Stacks(object):
 
     def __init__(self):
         self.instack = []
@@ -27,16 +31,3 @@ class Queue2Stacks(object):
 
                 self.outstack.append(self.instack.pop())
             return self.outstack.pop()
-
-
-# 2. Implement a queue
-
-# Create a class named "Queue" that allows you to:
-
-# a. Check if the queue is empty
-
-# b. Enqueue
-
-# c. Dequeue
-
-# d. Return the size of the queue
