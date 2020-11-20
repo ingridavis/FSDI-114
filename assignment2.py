@@ -17,7 +17,7 @@ print (reversed)
  
 
 # 2. Given a list of integers, write a function that will return a list, in which for each index the element will be the product of all the integers except for the element at that index.
-
+# --------- STILL WORKING ON:
 List=[1,2,3,4]
 def product(self, nums: List[int]) -> List[int]:
     left = [1]*len(nums) # [1,1,1,1]
